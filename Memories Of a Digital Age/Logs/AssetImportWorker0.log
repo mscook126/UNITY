@@ -1,0 +1,854 @@
+Unity Editor version:    2020.3.18f1 (a7d1c678663c)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/myrandacook/Documents/GitHub/UNITY/Memories Of a Digital Age
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50456
+Successfully changed project path to: /Users/myrandacook/Documents/GitHub/UNITY/Memories Of a Digital Age
+/Users/myrandacook/Documents/GitHub/UNITY/Memories Of a Digital Age
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/myrandacook/Documents/GitHub/UNITY/Memories Of a Digital Age/Assets
+GfxDevice: creating device client; threaded=0
+2021-11-15 11:30:45.236 Unity[1763:41349] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2021-11-15 11:30:45.236 Unity[1763:41349] Metal devices available: 2
+2021-11-15 11:30:45.236 Unity[1763:41349] 0: AMD Radeon Pro 5300M (high power)
+2021-11-15 11:30:45.236 Unity[1763:41349] 1: Intel(R) UHD Graphics 630 (low power)
+2021-11-15 11:30:45.237 Unity[1763:41349] Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56763
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000484 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 26.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.750 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1750ms)
+		BeginReloadAssembly (41ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (176ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (27ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001034 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.140 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1140ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (894ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.001391 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.002394 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.8 MB.
+System memory in use after: 160.0 MB.
+
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 1873.
+Total: 3.289684 ms (FindLiveObjects: 0.150540 ms CreateObjectMapping: 0.044768 ms MarkObjects: 2.532221 ms  DeleteObjects: 0.561322 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Furniture/Prefabs/chair.prefab
+  artifactKey: Guid(a42ad6a4668ecfb44a1f036838e43f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/chair.prefab using Guid(a42ad6a4668ecfb44a1f036838e43f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffd2a26229e6b566b2fff0aacdecffb') in 1.157185 seconds 
+  Import took 1.160767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002750 seconds.
+  path: Assets/Furniture/Prefabs/3Seat2.prefab
+  artifactKey: Guid(bd72486aa780d7c488fce4c5de88266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/3Seat2.prefab using Guid(bd72486aa780d7c488fce4c5de88266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d0b78fdfb70aaec53086d16b649a1c') in 0.041682 seconds 
+  Import took 0.045657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000684 seconds.
+  path: Assets/Furniture/Prefabs/Couch.prefab
+  artifactKey: Guid(2d5da6ebed3d1dc4db41b66b5eac1997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/Couch.prefab using Guid(2d5da6ebed3d1dc4db41b66b5eac1997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60726b3c37bd01dfe234f3885f3b058d') in 0.034984 seconds 
+  Import took 0.040048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Furniture/Prefabs/DoubleSeat.prefab
+  artifactKey: Guid(2c59b54db7aeb3d438ea1c0bf9694519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/DoubleSeat.prefab using Guid(2c59b54db7aeb3d438ea1c0bf9694519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844b6d630ca88ca653be18f4d3d6521d') in 0.038007 seconds 
+  Import took 0.043056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Furniture/Prefabs/DoubleSeat2.prefab
+  artifactKey: Guid(d5026a2aaf9d8394a9e8b886d38dbfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/DoubleSeat2.prefab using Guid(d5026a2aaf9d8394a9e8b886d38dbfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4067239106bc440afd39c867e2719f') in 0.030495 seconds 
+  Import took 0.034644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Furniture/Prefabs/3Seat.prefab
+  artifactKey: Guid(4da9f6017c5c2954282fe23c8f297ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/3Seat.prefab using Guid(4da9f6017c5c2954282fe23c8f297ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebf9e9dc34744fe90a0584d344f9db6') in 0.036155 seconds 
+  Import took 0.040758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Furniture/Prefabs/SmallCloset.prefab
+  artifactKey: Guid(0811362ae53573c47be253aac1dbdd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/SmallCloset.prefab using Guid(0811362ae53573c47be253aac1dbdd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dc3a2def15f1c6a1789d076b407597') in 0.032334 seconds 
+  Import took 0.036926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Furniture/Prefabs/Closet3.prefab
+  artifactKey: Guid(c24cdd6fcf1f09248832426ea5388c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/Closet3.prefab using Guid(c24cdd6fcf1f09248832426ea5388c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23bc4bfcb59ba2ccbea91ee068c579b') in 0.034479 seconds 
+  Import took 0.039127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Furniture/Prefabs/Fotel.prefab
+  artifactKey: Guid(0a94bd08074ccfd4e938cda201930e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/Fotel.prefab using Guid(0a94bd08074ccfd4e938cda201930e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64aac9900dc4aeb5115529d62db5c68') in 0.035837 seconds 
+  Import took 0.041747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Furniture/Prefabs/MetalTable.prefab
+  artifactKey: Guid(204da6aadc13e164eac745605815a273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/MetalTable.prefab using Guid(204da6aadc13e164eac745605815a273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1ba4f8ff8c8bc98a682f453e564a59') in 0.030608 seconds 
+  Import took 0.035373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Furniture/Prefabs/RoundTable.prefab
+  artifactKey: Guid(6f43b2566a8dcad4aa8e75125eeda38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/RoundTable.prefab using Guid(6f43b2566a8dcad4aa8e75125eeda38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764e850a97e36628a8675872a85e60b9') in 0.037791 seconds 
+  Import took 0.042278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Furniture/Prefabs/Fotel2.prefab
+  artifactKey: Guid(0602526b549f4e74c9107db59bde2a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/Fotel2.prefab using Guid(0602526b549f4e74c9107db59bde2a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac818283f3828af835659ce37713c71') in 0.030527 seconds 
+  Import took 0.034278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Furniture/Prefabs/3Seat3.prefab
+  artifactKey: Guid(d9e6213ffc5943b4db8396985aa3f894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/3Seat3.prefab using Guid(d9e6213ffc5943b4db8396985aa3f894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15758fb161f46f699fc4138ec6f566b') in 0.038655 seconds 
+  Import took 0.043197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Furniture/Prefabs/3seat4.prefab
+  artifactKey: Guid(245712dbd63f6f94e8467250c1caedd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/3seat4.prefab using Guid(245712dbd63f6f94e8467250c1caedd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ca690476a3be9f650c816dae47c623') in 0.029915 seconds 
+  Import took 0.033928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Furniture/Prefabs/MirrorComode.prefab
+  artifactKey: Guid(f1ffc5e47031c224a92e5b203193d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/MirrorComode.prefab using Guid(f1ffc5e47031c224a92e5b203193d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832c01f8250e02d191be79ccd1e9d1d9') in 0.017557 seconds 
+  Import took 0.020988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Furniture/Prefabs/closet2.prefab
+  artifactKey: Guid(7be1856a1844e5a47b82d7cb61f184e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/closet2.prefab using Guid(7be1856a1844e5a47b82d7cb61f184e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c68007ebc1760c4c3ee7d5c0bda7a0e') in 0.038882 seconds 
+  Import took 0.044206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/Furniture/Prefabs/MirrorComode2.prefab
+  artifactKey: Guid(cf75d98c5ad60534184b2a6377117ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/MirrorComode2.prefab using Guid(cf75d98c5ad60534184b2a6377117ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc8961d5be71c6e1b34bcfff8d9b7c9') in 0.038415 seconds 
+  Import took 0.043373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Furniture/Prefabs/Fotel4.prefab
+  artifactKey: Guid(80967ac7bb2c8104b8dd5b649046d79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/Fotel4.prefab using Guid(80967ac7bb2c8104b8dd5b649046d79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fd5e6f8107e5154edf079811a5a8f2') in 0.030479 seconds 
+  Import took 0.035118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Furniture/Prefabs/BigCloset.prefab
+  artifactKey: Guid(9d4494b8b100519479f9699c5a7390a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/BigCloset.prefab using Guid(9d4494b8b100519479f9699c5a7390a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8ddd6bb6e724400773d4c468f2a6c4') in 0.044261 seconds 
+  Import took 0.050785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Furniture/Prefabs/Fotel3.prefab
+  artifactKey: Guid(41cf0c45f4ecbd0469567b5a28e21395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/Fotel3.prefab using Guid(41cf0c45f4ecbd0469567b5a28e21395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6570a7bd04e8fb30872e0fe2d926a480') in 0.031576 seconds 
+  Import took 0.035762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Furniture/Prefabs/BigCloset.prefab
+  artifactKey: Guid(9d4494b8b100519479f9699c5a7390a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs/BigCloset.prefab using Guid(9d4494b8b100519479f9699c5a7390a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8ddd6bb6e724400773d4c468f2a6c4') in 0.038253 seconds 
+  Import took 0.043843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 802.709436 seconds.
+  path: Assets/Nice Materials Pack 2/Materials/Carpet.mat
+  artifactKey: Guid(1de165572fac44c97819a5fd315aa448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/Materials/Carpet.mat using Guid(1de165572fac44c97819a5fd315aa448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5083384cef2851817b0807354d99ff19') in 0.397970 seconds 
+  Import took 0.402263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002427 seconds.
+  path: Assets/Nice Materials Pack 2/Materials/Stained Leather.mat
+  artifactKey: Guid(c92403dbee0d444238a50451076ed995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/Materials/Stained Leather.mat using Guid(c92403dbee0d444238a50451076ed995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9d25f174d00cc0b01ed0117de1e9c1') in 0.037808 seconds 
+  Import took 0.042281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Nice Materials Pack 2/Materials/PaintedWall.mat
+  artifactKey: Guid(6a15be5e14f6b4dafa01c7005896bece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/Materials/PaintedWall.mat using Guid(6a15be5e14f6b4dafa01c7005896bece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6767b37033afd218e9ef00af0ae51b') in 0.037694 seconds 
+  Import took 0.042216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Nice Materials Pack 2/Materials/Cloth.mat
+  artifactKey: Guid(cf10f84fe1f714b2ca589a07a26c7499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/Materials/Cloth.mat using Guid(cf10f84fe1f714b2ca589a07a26c7499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac9ccc0554460c0ed01adee451aa23c') in 0.035903 seconds 
+  Import took 0.041306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Nice Materials Pack 2/Materials/Stone Tile.mat
+  artifactKey: Guid(d6a11a1a1fb27438f9ffca3db18c6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/Materials/Stone Tile.mat using Guid(d6a11a1a1fb27438f9ffca3db18c6b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ebd51612c93d5bf6f64506790575b3') in 0.037690 seconds 
+  Import took 0.042179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Nice Materials Pack 2/Materials/Concrete Wall.mat
+  artifactKey: Guid(c294d36e55c2a4948a246b45e6113e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/Materials/Concrete Wall.mat using Guid(c294d36e55c2a4948a246b45e6113e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4763ee5da02333d42b3bb70e15bda687') in 0.040797 seconds 
+  Import took 0.045845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Nice Materials Pack 2/Materials/ScratchedWood.mat
+  artifactKey: Guid(5242bb0cdd57b4dd099677f93959a624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/Materials/ScratchedWood.mat using Guid(5242bb0cdd57b4dd099677f93959a624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfbf4b6136e0c151934a6f9221d0637') in 0.039554 seconds 
+  Import took 0.045662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Nice Materials Pack 2/Materials/Lino.mat
+  artifactKey: Guid(2384c896585ef49ba8fe43f220c3ad83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/Materials/Lino.mat using Guid(2384c896585ef49ba8fe43f220c3ad83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d6f93112522411b76a0fbcf131d539') in 0.038581 seconds 
+  Import took 0.043634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Nice Materials Pack 2/Materials/Processed Leather.mat
+  artifactKey: Guid(c5ca6b792a25d4561a541a05ed4baf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/Materials/Processed Leather.mat using Guid(c5ca6b792a25d4561a541a05ed4baf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b510118b3f4dee530fe284871c8ce2f') in 0.038178 seconds 
+  Import took 0.043535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.745313 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Textured Carpet(2K)_COLOR.png
+  artifactKey: Guid(01ddeef715e194335bfb57ed4696a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Textured Carpet(2K)_COLOR.png using Guid(01ddeef715e194335bfb57ed4696a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96312408d07e3205951b82b73bd738b') in 1.322482 seconds 
+  Import took 1.325438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003404 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Textured Carpet(2K)_OCC.png
+  artifactKey: Guid(9edf5bc892bf743f8851af245c662b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Textured Carpet(2K)_OCC.png using Guid(9edf5bc892bf743f8851af245c662b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee5dea576e6544a0ebe088167e9a21f') in 0.009980 seconds 
+  Import took 0.012778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Textured Carpet(2K)_NRM.png
+  artifactKey: Guid(85427bdebfaf04c7ab9fa728c31d2a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Textured Carpet(2K)_NRM.png using Guid(85427bdebfaf04c7ab9fa728c31d2a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45489e8dcd6571f30b3a62b01cd9e2e0') in 0.015345 seconds 
+  Import took 0.018357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Textured Carpet(2K)_DISP.png
+  artifactKey: Guid(cee02fe8be0b346d59f781016b15c3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Textured Carpet(2K)_DISP.png using Guid(cee02fe8be0b346d59f781016b15c3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1445e1603a86aa990f020e1e72d94c') in 0.009413 seconds 
+  Import took 0.011814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Textured Carpet(2K)_COLOR.png
+  artifactKey: Guid(01ddeef715e194335bfb57ed4696a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Textured Carpet(2K)_COLOR.png using Guid(01ddeef715e194335bfb57ed4696a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96312408d07e3205951b82b73bd738b') in 0.013282 seconds 
+  Import took 0.015819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Textured Carpet(2K)_SPEC.png
+  artifactKey: Guid(69486f7c976f44cdaa9d7a8c0696c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Textured Carpet(2K)_SPEC.png using Guid(69486f7c976f44cdaa9d7a8c0696c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ed4f627ca4aca237b0a760b9660886') in 0.009511 seconds 
+  Import took 0.011908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.526232 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Scratched Wood Tile(2K)_COLOR.png
+  artifactKey: Guid(abd73ba55dec24e1b8b0d0e61b4e2292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Scratched Wood Tile(2K)_COLOR.png using Guid(abd73ba55dec24e1b8b0d0e61b4e2292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c165ffdd1fe49bda87c22e089894c88') in 0.010475 seconds 
+  Import took 0.013893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Scratched Wood Tile(2K)_OCC.png
+  artifactKey: Guid(b1004863d1d5346bb99e38c5c066d08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Scratched Wood Tile(2K)_OCC.png using Guid(b1004863d1d5346bb99e38c5c066d08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab04426480907feea918562cafdeb69') in 0.011636 seconds 
+  Import took 0.015079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Scratched Wood Tile(2K)_NRM.png
+  artifactKey: Guid(dd84b2ea7b4974b2ab80ddd38e1ffacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Scratched Wood Tile(2K)_NRM.png using Guid(dd84b2ea7b4974b2ab80ddd38e1ffacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14917eb636b2b2aa8d1c65d5c4b267e') in 0.013537 seconds 
+  Import took 0.016139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Scratched Wood Tile(2K)_DISP.png
+  artifactKey: Guid(475b4198859964b54bc33ccf8dfa9e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Scratched Wood Tile(2K)_DISP.png using Guid(475b4198859964b54bc33ccf8dfa9e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cf0c5c77c93ac14ae678036963e54f') in 0.011232 seconds 
+  Import took 0.013870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032581 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Scratched Wood Tile(2K)_DISP.png
+  artifactKey: Guid(475b4198859964b54bc33ccf8dfa9e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Scratched Wood Tile(2K)_DISP.png using Guid(475b4198859964b54bc33ccf8dfa9e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cf0c5c77c93ac14ae678036963e54f') in 0.015232 seconds 
+  Import took 0.018388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.473244 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Cloth(2K)_COLOR.png
+  artifactKey: Guid(14d8a17b05206469d8df9c0b7fc779ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Cloth(2K)_COLOR.png using Guid(14d8a17b05206469d8df9c0b7fc779ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edf95428ce48588519811c358d5222e') in 0.011800 seconds 
+  Import took 0.014631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Lino(2K)_SPEC.png
+  artifactKey: Guid(9083df8262f924df8ac0d8cb6ca6fbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Lino(2K)_SPEC.png using Guid(9083df8262f924df8ac0d8cb6ca6fbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c0c3b7ad5b47ecb30bb3f62725a876') in 0.015033 seconds 
+  Import took 0.017944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Concrete Wall(4K)_COLOR.png
+  artifactKey: Guid(51149414fca9e40aba4aa8775ec458dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Concrete Wall(4K)_COLOR.png using Guid(51149414fca9e40aba4aa8775ec458dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376d6eb388bf795243a3c535fe21318d') in 0.010551 seconds 
+  Import took 0.014667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Lino(2K)_COLOR.png
+  artifactKey: Guid(207434cd4cab944b0bf0808436630dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Lino(2K)_COLOR.png using Guid(207434cd4cab944b0bf0808436630dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3ff1a0bd8bf4314ff3e82992e81ee5') in 0.010132 seconds 
+  Import took 0.012699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Painted Wall(2K).jpg
+  artifactKey: Guid(778c3b7a18b3f44f0b98d6f7f4b5bb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Painted Wall(2K).jpg using Guid(778c3b7a18b3f44f0b98d6f7f4b5bb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a689463a7a73650f1d64823e6ee2d4') in 1.780407 seconds 
+  Import took 1.782768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003552 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Concrete Wall(4K)_SPEC.png
+  artifactKey: Guid(1f52e7b5254174e14b0a9fc26baac3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Concrete Wall(4K)_SPEC.png using Guid(1f52e7b5254174e14b0a9fc26baac3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba691f9809fc161eae4d47b2fd944466') in 0.014386 seconds 
+  Import took 0.017600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Stone Tile(4K)_COLOR.png
+  artifactKey: Guid(477b0e8758ebc4d54995927ed9e853e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Stone Tile(4K)_COLOR.png using Guid(477b0e8758ebc4d54995927ed9e853e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf350830398525874452e40fbe5c2948') in 0.017905 seconds 
+  Import took 0.020891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Stone Tile(4K)_NRM.png
+  artifactKey: Guid(bacebc57fbf7144d0a55660b347a87bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Stone Tile(4K)_NRM.png using Guid(bacebc57fbf7144d0a55660b347a87bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eac6685affdf53471d9a261bcaf5fb7') in 0.020866 seconds 
+  Import took 0.024056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Cloth(2K)_DISP.png
+  artifactKey: Guid(d3c6f612faf7a4a68b1f8fe81818c310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Cloth(2K)_DISP.png using Guid(d3c6f612faf7a4a68b1f8fe81818c310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9feb4e8b674786c4a8fc28b380ee89') in 0.018685 seconds 
+  Import took 0.021456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Stained Leather(4K)_COLOR.png
+  artifactKey: Guid(00da9c79945144eb997cf3afff1ebcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Stained Leather(4K)_COLOR.png using Guid(00da9c79945144eb997cf3afff1ebcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6720f19d768a1aabe312c8fa23e4944c') in 0.018811 seconds 
+  Import took 0.021485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Stained Leather(4K)_SPEC.png
+  artifactKey: Guid(50779803739794d90bba1ee284084fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Stained Leather(4K)_SPEC.png using Guid(50779803739794d90bba1ee284084fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6df785cec6e7e9353ab475f478c6767') in 0.013497 seconds 
+  Import took 0.016366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Stone Tile(4K)_SPEC.png
+  artifactKey: Guid(39f861e0764bc4fac8b78e38f855aee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Stone Tile(4K)_SPEC.png using Guid(39f861e0764bc4fac8b78e38f855aee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50043bd26e9ca4367295695d3d05e298') in 0.012148 seconds 
+  Import took 0.014874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Concrete Wall(4K)_DISP.png
+  artifactKey: Guid(492b42415e6f94ac591e5fb97fe14507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Concrete Wall(4K)_DISP.png using Guid(492b42415e6f94ac591e5fb97fe14507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e2e18b59911b1bc30ed983aafaf9b2') in 0.013219 seconds 
+  Import took 0.015881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Scratched Wood Tile(2K)_SPEC.png
+  artifactKey: Guid(afec3483d6c084e6db523aeba1ec634a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Scratched Wood Tile(2K)_SPEC.png using Guid(afec3483d6c084e6db523aeba1ec634a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51135ddde5e4a9ed64590707cf472795') in 0.018011 seconds 
+  Import took 0.022337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Concrete Wall(4K)_NRM.png
+  artifactKey: Guid(fbd7cc64ee04f4d11b4842fc0c598ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Concrete Wall(4K)_NRM.png using Guid(fbd7cc64ee04f4d11b4842fc0c598ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a721e1e87f3ef8f8136354eb9c90a7') in 0.023039 seconds 
+  Import took 0.027677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Painted Wall(2K)_OCC.png
+  artifactKey: Guid(c47396622cf6c4eaa8f87c02e4df91e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Painted Wall(2K)_OCC.png using Guid(c47396622cf6c4eaa8f87c02e4df91e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbb1b526160c689e2e3c540e12df661') in 0.018825 seconds 
+  Import took 0.022669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Painted Wall(2K)_SPEC.png
+  artifactKey: Guid(9864939cbcc494a87815e5b61ecd17ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Painted Wall(2K)_SPEC.png using Guid(9864939cbcc494a87815e5b61ecd17ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6620eac1f01c53bc902c6e85ee35d9e') in 0.016182 seconds 
+  Import took 0.018964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Processed Leather(4k)_OCC.png
+  artifactKey: Guid(761aa892ca93b499195788f2105846aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Processed Leather(4k)_OCC.png using Guid(761aa892ca93b499195788f2105846aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caf8b288c779e88302dba884b8759eb') in 0.016653 seconds 
+  Import took 0.019435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Stone Tile(4K)_OCC.png
+  artifactKey: Guid(6381d1cc6f509436e83ab6bea979537a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Stone Tile(4K)_OCC.png using Guid(6381d1cc6f509436e83ab6bea979537a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd1aeee7d0bab54d952243001d9ae1f') in 0.013077 seconds 
+  Import took 0.016998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Processed Leather(4k)_DISP.png
+  artifactKey: Guid(bd1241ddd067640be9c5ea9431fde4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Processed Leather(4k)_DISP.png using Guid(bd1241ddd067640be9c5ea9431fde4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125ce31086c2e5f7003ef18201cd926d') in 0.011937 seconds 
+  Import took 0.015351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Lino(2K)_NRM.png
+  artifactKey: Guid(f7baaf7a69ebe4791ab27f1a37a82bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Lino(2K)_NRM.png using Guid(f7baaf7a69ebe4791ab27f1a37a82bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73d2c125737c2b2cb5cdc40a2e6450a') in 0.018706 seconds 
+  Import took 0.021506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Lino(2K)_OCC.png
+  artifactKey: Guid(30b7f28c851e44062812a198a1c67da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Lino(2K)_OCC.png using Guid(30b7f28c851e44062812a198a1c67da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd578c4472cf9fdc1d5110cb63510fcef') in 0.014395 seconds 
+  Import took 0.017771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Processed Leather(4k)_COLOR.png
+  artifactKey: Guid(822c6305cfa6f43dc85792104ff9e463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Processed Leather(4k)_COLOR.png using Guid(822c6305cfa6f43dc85792104ff9e463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5828ce72a4ef1728f92e2d67447a70e4') in 0.017239 seconds 
+  Import took 0.020040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Painted Wall(2K)_DISP.png
+  artifactKey: Guid(9f7dc0631862d47d18335babfd3c4246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Painted Wall(2K)_DISP.png using Guid(9f7dc0631862d47d18335babfd3c4246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4c9195de3deb500883811a07b7718e') in 0.014491 seconds 
+  Import took 0.016943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Processed Leather(4k)_NRM.png
+  artifactKey: Guid(d32815074f2ab4ce7b3227b4b5eb9acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Processed Leather(4k)_NRM.png using Guid(d32815074f2ab4ce7b3227b4b5eb9acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40ba2eebb888f80f623afd47b1dc5d5') in 0.016032 seconds 
+  Import took 0.018392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Concrete Wall(4K)_OCC.png
+  artifactKey: Guid(617ad6503408046e5b8a9db0d85a5f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Concrete Wall(4K)_OCC.png using Guid(617ad6503408046e5b8a9db0d85a5f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec954ab5617e2a8f29c02e6679715354') in 0.016616 seconds 
+  Import took 0.019575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Processed Leather(4k)_SPEC.png
+  artifactKey: Guid(ce6ad026639f14be88a1e665595fb48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Processed Leather(4k)_SPEC.png using Guid(ce6ad026639f14be88a1e665595fb48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f9f92dd4b4fbd01359ed8bfadb1283') in 0.015471 seconds 
+  Import took 0.018791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Stained Leather(4K)_DISP.png
+  artifactKey: Guid(ef69e29c2d3714a88a010620bc9db389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Stained Leather(4K)_DISP.png using Guid(ef69e29c2d3714a88a010620bc9db389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198a40ace5fcf68f155732ad7ace5fa0') in 0.015999 seconds 
+  Import took 0.019633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Stained Leather(4K)_NRM.png
+  artifactKey: Guid(5b4edad3f382b489f87f4232a06da6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Stained Leather(4K)_NRM.png using Guid(5b4edad3f382b489f87f4232a06da6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1399f4a7e09222fe2e997679d652cff7') in 0.021601 seconds 
+  Import took 0.025345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Cloth(2K)_OCC.png
+  artifactKey: Guid(3518bfd437090499fad4db7eb7261840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Cloth(2K)_OCC.png using Guid(3518bfd437090499fad4db7eb7261840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834d69f77714d455c70f7aa368001d9a') in 0.013358 seconds 
+  Import took 0.016422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Lino(2K)_DISP.png
+  artifactKey: Guid(3be6129d9c1a340aaa6c099cea4565e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Lino(2K)_DISP.png using Guid(3be6129d9c1a340aaa6c099cea4565e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53b75eb3d3adf4d85da02833e4dc633') in 0.011985 seconds 
+  Import took 0.014639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Cloth(2K)_NRM.png
+  artifactKey: Guid(5eaf9033bc774487688c41db75df41d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Cloth(2K)_NRM.png using Guid(5eaf9033bc774487688c41db75df41d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fe0a18c9d791addb341ffebabc2023') in 0.025657 seconds 
+  Import took 0.029841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Cloth(2K)_SPEC.png
+  artifactKey: Guid(e7ca0d60c9694487cb3edcb303e10a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Cloth(2K)_SPEC.png using Guid(e7ca0d60c9694487cb3edcb303e10a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b65ac302e53d64f35594299130b2be') in 0.014666 seconds 
+  Import took 0.017834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Painted Wall(2K)_NRM.png
+  artifactKey: Guid(f6a235fb1c9df4e039c3739591fe1c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Painted Wall(2K)_NRM.png using Guid(f6a235fb1c9df4e039c3739591fe1c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e14069fdd4576a5d5af34c1f52edb11') in 0.014979 seconds 
+  Import took 0.017363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Stained Leather(4K)_OCC.png
+  artifactKey: Guid(dd468a35cddac4d33b60f1f292247285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Stained Leather(4K)_OCC.png using Guid(dd468a35cddac4d33b60f1f292247285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da34fce6e9869bc753eec2ace6ddbfaa') in 0.015137 seconds 
+  Import took 0.017712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Textures/Stone Tile(4K)_DISP.png
+  artifactKey: Guid(825463b3298ac46bd9e47ecb2cda20f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Textures/Stone Tile(4K)_DISP.png using Guid(825463b3298ac46bd9e47ecb2cda20f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efba5511172640dd32f4f31dc6f070cd') in 0.012601 seconds 
+  Import took 0.015324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 234.632939 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Skyboxes(AssetStoreFree)/hotday.mat
+  artifactKey: Guid(28e17eb1f6b3149da9f03426b8603486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Skyboxes(AssetStoreFree)/hotday.mat using Guid(28e17eb1f6b3149da9f03426b8603486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d50b5fc903e9c3798c08b52efa30e58') in 0.286189 seconds 
+  Import took 0.288728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.356856 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Objects/3.fbx
+  artifactKey: Guid(0b6e6326ce67f4586a003876f40bb16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Objects/3.fbx using Guid(0b6e6326ce67f4586a003876f40bb16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf1e94abb7030bf9a389d99a5d2fa7e') in 0.452786 seconds 
+  Import took 0.456354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006428 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Objects/7.fbx
+  artifactKey: Guid(e016142f095e4490e856e26f6adbcea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Objects/7.fbx using Guid(e016142f095e4490e856e26f6adbcea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ce6e33b63a1aeaf3ee0eee06c0146c') in 0.014503 seconds 
+  Import took 0.017426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002368 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Objects/7.fbx
+  artifactKey: Guid(e016142f095e4490e856e26f6adbcea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Objects/7.fbx using Guid(e016142f095e4490e856e26f6adbcea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ce6e33b63a1aeaf3ee0eee06c0146c') in 0.015997 seconds 
+  Import took 0.018705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.839712 seconds.
+  path: Assets/Nice Materials Pack 2/Materials/Carpet.mat
+  artifactKey: Guid(1de165572fac44c97819a5fd315aa448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/Materials/Carpet.mat using Guid(1de165572fac44c97819a5fd315aa448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764992e0f9cea71edb1d13be751c6a92') in 0.039453 seconds 
+  Import took 0.044529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Nice Materials Pack 2/Materials/ScratchedWood.mat
+  artifactKey: Guid(5242bb0cdd57b4dd099677f93959a624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/Materials/ScratchedWood.mat using Guid(5242bb0cdd57b4dd099677f93959a624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da50032285e6af3fa144f26c42f921d4') in 0.032920 seconds 
+  Import took 0.037196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.944543 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Stone Tile 1.mat
+  artifactKey: Guid(bedfaa23e0cbb40af9a821cb27393d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Stone Tile 1.mat using Guid(bedfaa23e0cbb40af9a821cb27393d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ef6d6b5120e4f40c00cc24513e212d') in 0.038213 seconds 
+  Import took 0.042809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Walls 1.mat
+  artifactKey: Guid(e0b91578a5e8d4569abc1664ae2ef202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Walls 1.mat using Guid(e0b91578a5e8d4569abc1664ae2ef202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d66036570ea49a641618fc53cec63d') in 0.534981 seconds 
+  Import took 0.537985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Walls.mat
+  artifactKey: Guid(372463bba50b3444da05af70d627f1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Walls.mat using Guid(372463bba50b3444da05af70d627f1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34adb0f46f9c07997fdd161f31606549') in 0.030523 seconds 
+  Import took 0.033800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009941 seconds.
+  path: Assets/Nice Materials Pack 2/OtherAssets/Walls.mat
+  artifactKey: Guid(372463bba50b3444da05af70d627f1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/OtherAssets/Walls.mat using Guid(372463bba50b3444da05af70d627f1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34adb0f46f9c07997fdd161f31606549') in 0.028088 seconds 
+  Import took 0.031689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 671.854062 seconds.
+  path: Assets/Nice Materials Pack 2/Materials/Carpet.mat
+  artifactKey: Guid(1de165572fac44c97819a5fd315aa448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nice Materials Pack 2/Materials/Carpet.mat using Guid(1de165572fac44c97819a5fd315aa448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bd25b13995571858b748cfa2cab392') in 0.050319 seconds 
+  Import took 0.055964 seconds .
+
