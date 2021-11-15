@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Memories of a Digital Age.unity
+- path: Assets/Don't Touch That Dial!.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
